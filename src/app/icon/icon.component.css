@@ -1,0 +1,13 @@
+.launch-icon {
+  position: fixed;
+  top: 1%; /* Align top left. */
+  left: 1%;
+  z-index: 1; /* Sets it behind the terminal component. */
+  cursor: pointer;
+}
+
+/* Make the image smaller to look like a desktop icon. */
+img {
+  max-width: 10%;
+  max-height: 10%;
+}

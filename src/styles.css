@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import "xterm/css/xterm.css";
+body {
+  background-image: url("assets/background.png");
+  background-repeat: repeat;
+  background-size: 3%;
+}

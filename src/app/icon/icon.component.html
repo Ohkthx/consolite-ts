@@ -1,0 +1,9 @@
+<img
+  src="assets/sh-icon.png"
+  class="launch-icon"
+  (dblclick)="onIconDoubleClick()"
+  alt="Launch Icon"
+/>
+
+<!-- Controls if the terminal is showing or hidden. -->
+<app-terminal *ngIf="showTerminal"></app-terminal>

@@ -1,0 +1,17 @@
+<div
+  class="terminal-window"
+  id="terminal-window"
+  (mousedown)="onDragStart($event)"
+  (document:mousemove)="onDragMove($event)"
+  (document:mouseup)="onDragEnd()"
+>
+  <div class="terminal-header" id="terminal-header">Terminal</div>
+  <div class="terminal-body" id="terminal-container"></div>
+  <div
+    class="resize-handle"
+    id="resize-handle"
+    (mousedown)="onResizeStart($event)"
+    (document:mousemove)="onResizeMove($event)"
+    (document:mouseup)="onResizeEnd()"
+  ></div>
+</div>
